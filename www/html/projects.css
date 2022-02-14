@@ -1,0 +1,24 @@
+.article {
+    margin-bottom: 30px;
+}
+
+.article-contents {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+
+.article-img-box {
+    width: 40%;
+}
+
+.article-img-box img {
+    width: 100%;
+}
+
+.article-text {
+    width: 40%;
+    overflow-wrap: break-word;
+    padding: 20px;
+}
