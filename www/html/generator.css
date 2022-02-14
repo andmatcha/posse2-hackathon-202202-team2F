@@ -1,0 +1,16 @@
+.generator-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #A6A6A6;
+  
+}
+
+ul li{
+  list-style: none;
+}
+
+.fmi{
+  border-top: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
