@@ -1,0 +1,40 @@
+.article-title-txt{
+    font-size: 80px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 300%;
+    color: #EEEEEE;
+    
+    
+}
+
+.article-title {
+    position: relative;
+    padding: 1.5rem 2rem;
+    border: 4px solid #545454;
+}
+
+
+
+
+
+.article-title-txtbox {
+    height:300px;
+}
+
+.article-title-txt:before,
+.article-title-txt:after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    content: '';
+    border-top: 4px dotted #545454;
+}
+
+.article-title-txt:before {
+    top:6px;
+}
+
+.article-title-txt:after {
+    bottom: 6px;
+}
