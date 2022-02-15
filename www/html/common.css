@@ -68,7 +68,6 @@ ul{
 
 footer{
   width:100%;
-  height: 400px;
 }
 
 .footer-inner{
@@ -122,6 +121,13 @@ footer{
 .footer-link-box {
   letter-spacing: .08em;
   margin: 0 auto;
+  line-height: 1.5em;
+  word-break: keep-all;
+  text-align: center;
+}
+
+.footer-link-box a {
+  margin: 0 10px;
 }
 
 .footer-credit-box {
