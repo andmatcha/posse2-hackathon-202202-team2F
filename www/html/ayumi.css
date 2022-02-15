@@ -29,9 +29,6 @@ h2.article-title-txt {
     display: flex;
 }
 
-
-
-
 .article-title-txtbox {
     position: absolute;
     width: calc(100% - 1em);
@@ -39,7 +36,6 @@ h2.article-title-txt {
     padding: 0 1em;
     object-fit: cover;
 }
-
 
 .article-title-img {
     width: 100%;
@@ -67,4 +63,36 @@ h2.article-title-txt {
 
 .article-title-img {
 
+}
+
+
+/* articles */
+
+.article {
+    margin-bottom: 30px;
+}
+
+.article-content-set {
+    display: flex;
+}
+
+.article-contents {
+    width: 100%;
+    /*  */
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+
+.article-img-box {
+    width: 40%;
+}
+
+.article-img-box img {
+    width: 100%;
+}
+
+.article-text {
+    width: 40%;
+    overflow-wrap: break-word;
+    padding: 20px;
 }
