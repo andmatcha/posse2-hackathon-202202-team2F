@@ -152,6 +152,113 @@
     }
 }
 
+/* ファーストビュー */
+.content-wrapper{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: #545454; */
+}
+
+.logo-box{
+    width: 30%;
+    height: 600px;
+    /* background-color: red;  */
+    font-size: 160px;
+    writing-mode: vertical-rl;
+    color:#545454;
+    text-shadow: 0 0 8px rgba(0,0,0,0.5);
+    opacity: 0.2;
+}
+
+.logo-box::first-letter{
+    font-size:400px;
+    font-weight: 200;
+} 
+
+.color-change-1{
+    color: #F29F05;
+}
+
+.color-change-2{
+    color: #FFDB58
+}
+
+.first-division-box-left{
+    width: 70%;
+    height: 600px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box{
+    width:100%;
+    height:25%;
+    /* background-color: green; */
+    font-size: 80px;
+    padding-top: 3%;
+    color: #545454;
+}
+
+.second-division-box-bottom{
+    width:100%;
+    height:75%;
+    display:flex;
+    flex-direction: row-reverse;
+    /* background-color: lightblue; */
+}
+
+
+.logo-icon-box{
+    width:20%;
+    height: 100%;
+    /* background-color: purple; */
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-icon-box-top{
+    width:100%;
+    height: 85%;
+    /* background-color: bisque; */
+}
+.logo-icon-box-bottom{
+    width:100%;
+    height: 20%;
+    /* background-color:aquamarine */
+}
+
+.arrow{
+    position: relative;
+    display: inline-block;
+}
+
+.arrow::before{
+    content: '';
+    width: 90px;
+    height: 90px;
+    border: 0px;
+    border-top: solid 13px #545454;
+    border-right: solid 13px #545454;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -4px;
+    /* text-shadow: 0 0 20px rgba(0,0,0,0.5); */
+    opacity: 0.09;
+}
+
+
+
+.title-img-box{
+    width:80%;
+    height:100%;
+    /* background-color: yellow; */
+}
 
 
 
