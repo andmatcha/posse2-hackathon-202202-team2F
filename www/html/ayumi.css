@@ -1,0 +1,70 @@
+.article-title {
+    height: 300px;
+    background-color: rgb(255, 189, 88);
+}
+
+.article-title-txt {
+    text-align: left;
+    line-height: 200%;
+    color: #EEEEEE;
+    padding: 0.1rem 0.1rem;
+    width: 40%;
+}
+
+h1.article-title-txt {
+    font-size: 30px;
+    font-weight: 550;
+    height: 20%;
+}
+
+h2.article-title-txt {
+    font-size: 15px;
+    height: 80%;
+    font-weight: normal;
+}
+
+.article-title {
+    position: relative;
+    padding: 1rem 1.5rem;
+    display: flex;
+}
+
+
+
+
+.article-title-txtbox {
+    position: absolute;
+    width: calc(100% - 1em);
+    height: 245px;
+    padding: 0 1em;
+    object-fit: cover;
+}
+
+
+.article-title-img {
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    filter: grayscale(30%) blur(1px);
+}
+
+.article-title-txtbox:before,
+.article-title-txtbox:after {
+    position: absolute;
+    left: 0;
+    width: calc(100% - 2em);
+    content: '';
+    border-top: 4px dotted #545454;
+}
+
+.article-title-txtbox:before {
+    top:6px;
+}
+
+.article-title-txtbox:after {
+    bottom: 6px;
+}
+
+.article-title-img {
+
+}
