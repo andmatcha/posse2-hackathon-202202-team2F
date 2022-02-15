@@ -48,6 +48,7 @@
 
 .article-title-txt-box {
     position: relative;
+    margin: 0 40px;
     padding: 2em 1.5em 0;
     z-index: 10;
     color: #EEE;
@@ -106,6 +107,7 @@
 
 .all-article {
 display: flex;
+margin: 0 40px;
 }
 
 .article {
