@@ -60,8 +60,6 @@ function BgFadeAnime(){
 	// カウントダウンタイマー by Lisa
 
 	const daysElm = document.getElementById('days');
-	// const hoursElm = document.getElementById('hours');
-	// const minsElm = document.getElementById('mins');
 	
 	// ここに好きな日時を記述する
 	// 西暦 月　日
@@ -74,8 +72,6 @@ function BgFadeAnime(){
 		const totalSeconds = (targetDate - currentDate) / 1000;
 	
 		const days = Math.floor(totalSeconds / 3600 / 24);
-		// const hours = Math.floor(totalSeconds / 3600) % 24;
-		// const mins = Math.floor(totalSeconds / 60) % 60;
 	
 		daysElm.innerHTML = days;
 		hoursElm.innerHTML = formatTime(hours);
