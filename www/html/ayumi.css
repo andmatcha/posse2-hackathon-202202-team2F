@@ -1,10 +1,10 @@
 .article-title-txt{
-    font-size: 80px;
+    font-size: 25px;
     font-weight: bold;
-    text-align: right;
-    line-height: 300%;
+    text-align: left;
+    line-height: 200%;
     color: #EEEEEE;
-    
+    padding: 0.1rem 0.1rem;
     
 }
 
@@ -12,14 +12,27 @@
     position: relative;
     padding: 1.5rem 2rem;
     border: 4px solid #545454;
+    display: flex;
+}
+
+.txt-ayumi {
+
 }
 
 
 
-
-
 .article-title-txtbox {
-    height:300px;
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    height: 245px;
+    object-fit: cover;
+}
+
+.article-title-img {
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
 }
 
 .article-title-txt:before,
@@ -37,4 +50,8 @@
 
 .article-title-txt:after {
     bottom: 6px;
+}
+
+.article-title-img {
+
 }
