@@ -6,7 +6,7 @@ const wait = (sec) => {
 };
 
 async function hideLoading() {
-    await wait(2); //2秒まつ
+    await wait(1.5); //2秒まつ
     document.getElementById('loading').classList.add('hide-loading'); //loading画面を隠す
     await wait(1); //1秒まつ
     document.getElementById('loading').style.display = 'none'; //裏で動いているloading画面を消す
