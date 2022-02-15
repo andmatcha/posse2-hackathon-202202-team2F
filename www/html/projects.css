@@ -86,6 +86,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    width: 100%;
     transform: translate(-50%, -50%);
     font-size: 32px;
 }
@@ -93,7 +94,7 @@
 .game-play-again {
     width: 6em;
     height: 2em;
-    margin: 30px auto 0;
+    margin: 20px auto 0;
     font-size: 20px;
     line-height: 1.75em;
     color: #F29F05;
@@ -105,4 +106,33 @@
 
 .game-correct-key {
     color: #F29F05;
+}
+
+@media screen and (max-width: 1024px) {
+    .game-box {
+        height: 58vw;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .game-display-words {
+        font-size: 32px;
+    }
+
+    .game-display-time {
+        top: 5px;
+        right: 10px;
+        font-size: 32px;
+    }
+
+    .game-play-again {
+        margin: 10px auto 0;
+    }
+
+    .game-display-score {
+        font-size: 24px;
+    }
+    .game-display-score br {
+        display: none;
+    }
 }
