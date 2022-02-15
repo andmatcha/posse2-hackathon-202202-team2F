@@ -53,3 +53,37 @@ function BgFadeAnime(){
 	$(window).on('load', function(){
 		BgFadeAnime();/* アニメーション用の関数を呼ぶ*/
 	});// ここまで画面が読み込まれたらすぐに動かしたい場合の記述
+
+
+
+
+	// カウントダウンタイマー by Lisa
+
+	const daysElm = document.getElementById('days');
+	// const hoursElm = document.getElementById('hours');
+	// const minsElm = document.getElementById('mins');
+	
+	// ここに好きな日時を記述する
+	// 西暦 月　日
+	const target = '2022 6 1';
+	
+	function countDown() {
+		const targetDate = new Date(target);
+		const currentDate = new Date();
+	
+		const totalSeconds = (targetDate - currentDate) / 1000;
+	
+		const days = Math.floor(totalSeconds / 3600 / 24);
+		// const hours = Math.floor(totalSeconds / 3600) % 24;
+		// const mins = Math.floor(totalSeconds / 60) % 60;
+	
+		daysElm.innerHTML = days;
+		hoursElm.innerHTML = formatTime(hours);
+		minsElm.innerHTML = formatTime(mins);
+	}
+	
+	function formatTime(time) {
+		return time < 10 ? `0${time}` : time;
+	}
+	
+	setInterval(countDown, 1000);
