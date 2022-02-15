@@ -42,7 +42,7 @@ function gFinish(judge) {
         gScoreBox.insertAdjacentHTML('afterbegin', 'FINISH!!');
     }
 
-    gScoreBox.insertAdjacentHTML('beforeend', `<p>Score: ${gScore}<br>Miss: ${gWrongKeyCount}</p>`);
+    gScoreBox.insertAdjacentHTML('beforeend', `<p> Score: ${gScore} <br> Miss: ${gWrongKeyCount} </p>`);
     gScoreBox.insertAdjacentHTML('beforeend', `<p id="g_play_again" class="game-play-again">Play Again</p>`);
     gAgainBtn = document.getElementById('g_play_again');
     gAgainBtn.addEventListener('click', () => {
