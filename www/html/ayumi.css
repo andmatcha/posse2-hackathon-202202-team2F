@@ -88,11 +88,25 @@
 
 /* articles */
 
-.article {
+.timeline-year {
+    font-weight: bold;
+    font-size: 50px;
+    color: gray;
     margin-bottom: 30px;
 }
 
-.article-content-set {
+.timeline-date {
+    text-decoration: underline double;
+    text-decoration-color:#F29F05 ;
+}
+
+
+
+.article {
+    width: 100%;
+}
+
+.article-items {
     display: flex;
 }
 
