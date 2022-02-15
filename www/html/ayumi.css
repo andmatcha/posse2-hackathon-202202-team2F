@@ -99,6 +99,7 @@
 
 .year2021 {
     text-align: left;
+    margin: 0 40px;;
 }
 
 .year2022 {
@@ -169,7 +170,7 @@ margin: 0 40px;
 
 .stickarrow {
     width: 25px;
-    height: 900px;
+    height: 999px;
     border-bottom: 15px solid #A6A6A6;
     border-right: 10px solid #A6A6A6;
     transform: skewY(44deg);
