@@ -41,10 +41,8 @@ function responsive() {
 window.addEventListener('resize', responsive);
 window.onload = responsive();
 
-// $(".openbtn").click(function () {
-//     $(this).toggleClass('active');
-// });
 
+// ハンバーガーボタン動作
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
 
