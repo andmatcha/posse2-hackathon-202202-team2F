@@ -1,0 +1,153 @@
+* {
+  font-family: 'Source Sans Pro', 'Sawarabi Gothic', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.bg_pt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f3fcfa;
+  background-image: radial-gradient(#ccc 1px, #eee 1px);
+  background-size: 25px 25px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background: #F29F05;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 70px;
+  padding-right: 70px;
+  z-index: 5;
+  position: fixed;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-right: 70px;
+}
+
+.header-btns {
+  padding-right: 70px;
+  color: #545454;
+}
+
+.logo-pic {
+  height: 82px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+
+}
+
+.logo {
+  width: 30%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-btn {
+  padding: 10px
+}
+
+.form-btn {
+  padding: 10px;
+}
+
+.header-spacer {
+  width: 100%;
+  height: 100px;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+}
+
+.footer-inner {
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 20px 40px;
+}
+
+.footer-inner a:hover {
+  color: #F29F05;
+}
+
+.footer-sns-box {
+  width: 100%;
+}
+
+.footer-sns-inner {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.footer-sns-inner p {
+  font-size: 1.2em;
+  text-align: center;
+  color: #545454;
+  margin-bottom: 10px;
+}
+
+.footer-sns-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-sns-icons li {
+  width: 30px;
+}
+
+.footer-sns-icons li a {
+  width: 100%;
+}
+
+.footer-sns-icons li a img {
+  width: 100%;
+}
+
+.footer-link-box {
+  letter-spacing: .08em;
+  margin: 0 auto;
+  line-height: 1.5em;
+  word-break: keep-all;
+  text-align: center;
+}
+
+.footer-link-box a {
+  margin: 0 10px;
+}
+
+.footer-credit-box {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  color: #a6a6a6;
+}
