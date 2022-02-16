@@ -277,7 +277,16 @@
 .section-why-box-space {
     width: 400px;
     flex-grow: 1;
-    background-color: purple;
+}
+
+.section-why-box-space div {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.section-why-box-space  img {
+    width: 100%;
+    max-width: 200px;
 }
 
 .section-why-box-right {
@@ -314,12 +323,6 @@
     border-radius: 10px;
     background-color: #eee;
     box-shadow: 4px 4px 4px #bbb;
-}
-
-.section-why-box-space-bottom {
-    width: 80%;
-    flex-grow: 1;
-    background-color: purple;
 }
 
 .section2-box {
@@ -524,7 +527,7 @@
     min-height: 250px;
     min-width: 250px;
     max-width: 370px;
-    max-height: 290px;
+    max-height: 350px;
 }
 
 .first-topic{
@@ -580,4 +583,50 @@
 
 .quote-container:hover{
     box-shadow: 0 2px 5px #545454;
+}
+
+
+/* invitation */
+.invitation {
+    width: 60vw;
+    height:40vw;
+    max-width: 960px;
+    max-height: 7200px;
+    min-width: 240px;
+    min-height: 180px;
+    margin: 10px 20px;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    background-color: #eee;
+    box-shadow: 4px 4px 4px #bbb;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.invitation h2 {
+    font-size: 2em;
+}
+
+.invitation p {
+    font-size: 1.2em;
+}
+
+.invitation button {
+    color: #eee;
+    width: 50%;
+    height: 80px;
+    font-size: 1.5em;
+    background-color: #F29F05;
+    border-radius: 10px;
+    border: #FFDB58 solid 5px;
+    box-shadow: 4px 4px 4px #bbb;
+    cursor: pointer;
+}
+
+.invitation button:hover {
+    color: #545454;
 }
