@@ -84,3 +84,67 @@
         font-size: .8em;
     }
 }
+
+
+/* section */
+
+
+h2{
+    font-size: 30px;
+    margin:20px;
+    font-weight: bold;
+    
+}
+
+.event-box{
+    height:350px;
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.event-img-box{
+    height: 350px;
+    width: 50%;
+    /* background-color: blue; */
+}
+
+.event-text-box{
+    height: 100%;
+    width: 50%;
+    /* background-color: purple; */
+    margin: 100px;
+    padding: 50px;
+    font-size: 18px;
+}
+
+.food-box{
+    height:350px;
+    display: flex;
+}
+
+.food-img-box{
+    height: 350px;
+    width: 50%;
+    margin: 20px;
+}
+
+.food-text-box{
+    height: 100%;
+    width: 50%;
+    margin: 100px;
+    padding: 50px;
+    font-size: 18px;
+}
+
+
+.swiper-slide{
+    width: 50px;
+    height: 70%;
+}
+
+img{
+    width: 50%;
+    height: 40%;
+
+}
