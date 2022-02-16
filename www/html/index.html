@@ -1,12 +1,259 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>POSSE② | 紹介サイト</title>
+    <link rel="stylesheet" href="./destyle.css" />
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./index.css" />
 </head>
+
 <body>
-    
+    <div class="bg_pt"></div>
+    <div class="wrapper">
+        <div id="loading" class="loading-bg">
+            <div class="loader">Loading...</div>
+        </div>
+        <div id="side_menu_wrapper" class="side-menu-wrapper">
+            <nav id="side_menu" class="side-menu"></nav>
+        </div>
+
+        <!-- カウントダウンタイマー　by Lisa -->
+        <div class="countdown-container">
+            <h2 class="posse-third">Posse 3.0期生</h2>
+            <p class="banner-p">本格始動まで残り…</p>
+            <div class="countdown-box">
+                <div class="countdown-elm">
+                    <p class="time-text" id="days">0</p>
+                    <span>days!</span>
+                </div>
+                <div class="form-btn">
+                    <a
+                        href="https://docs.google.com/forms/d/1CIi92K1lOtHGMmHYMq3ArzW8jlNUy8i_gPmX4cgQTos/viewform?edit_requested=true">応募はこちら</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- header -->
+        <header>
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="img/posse2_logo.jpg" class="logo-pic" alt="posse2_logo" />
+                </div>
+                <nav id="header_menu">
+                    <ul id="header_btns" class="header-btns">
+                        <li class="header-btn"><a href="">TOP</a></li>
+                        <li class="header-btn"><a href="./ayumi.html">HISTORY</a></li>
+                        <li class="header-btn"><a href="./projects.html">PROJECTS</a></li>
+                        <li class="header-btn"><a href="./gallery.html">GALLERY</a></li>
+                        <li class="header-btn"><a
+                                href="https://docs.google.com/forms/d/1CIi92K1lOtHGMmHYMq3ArzW8jlNUy8i_gPmX4cgQTos/edit?usp=sharing">応募フォーム</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="hamburger" class="openbtn"><span></span><span></span><span></span></div>
+            </div>
+        </header>
+        <div class="header-spacer"></div>
+        <div class="container">
+
+
+            <!-- ファーストビュー -->
+            <div class="content-wrapper">
+                <div class="logo-box"> POSSE<span class="color-change-2 firstview-letter2">2</span> </div>
+                <div class="first-division-box-left">
+                    <div class="title-box"> <span class="color-change-2">新</span>たな人生の<span>フェーズへ</span></div>
+                    <div class="second-division-box-bottom">
+                        <div class="logo-icon-box">
+                            <div class="logo-icon-box-top"></div>
+                            <div class="arrow"></div>
+
+                            <div class="logo-icon-box-bottom"></div>
+                            <div class="arrow"></div>
+                        </div>
+
+                        <div class="title-img-box">
+                            <img src="./img/IMG_0033.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- メインコンテンツ -->
+            <div class="section-box-first"></div>
+            <section class="section-about">
+                <div class="section-box-top">
+                    <div class="section-about-left">
+                        <div class="section-about-article">
+                            <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                        class="bgappearTrigger">POSSE②とは</span></span></h2>
+                            <p>
+                                POSSE②は現在元気いっぱいな23人のメンバーからなるコミュニティです！ほとんどのメンバーがプログラミング初心者として入り、この１年で飛躍的な成長を遂げました。
+                            </p>
+                            <p>
+                                新大学2年生のメンバーが多く、フレッシュな雰囲気に満ちています。
+                            </p>
+                        </div>
+                        <div class="section-about-img">
+                            <img src="./img/programming1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="section-about-slogan">すくすくと育つ<br>コミュニティ</div>
+                </div>
+
+                <div class="section-box-first"></div>
+
+                <!-- <div class="section2-box">
+                    <h2>POSSE②のここがすき！</h2>
+                    <p>POSSE②はこういうところがよくって、好きなんです。良いねええええええ。</p>
+                    <div class="section-box-bottom">
+                        <div class="section-box-img"></div>
+                        <div class="section-box-img"></div>
+                    </div>
+                </div> -->
+            </section>
+
+            <div class="section-box-first"></div>
+            <section class="section-why">
+                <div class="section-why-box-top">
+                    <div class="section-why-slogan">人格×プログラミング</div>
+                    <div class="section-why-box-left">
+                        <div class="section-why-box-article">
+                            <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                        class="bgappearTrigger">なぜPOSSE②？</span></span></h2>
+                            <p>
+                                POSSE②のメンバーはプログラミング面だけでなく人格面も重視しています。
+                            </p>
+                            <p>
+                                メンバー数が少ない分、ある意味１つのチームとして互いの相談に乗ったり、メンバーのことを深く理解しようという意識が共有されています。
+                            </p>
+                            <p>
+                                かと言って入りづらいと思う必要はありません。POSSE②は成長の真っ只中、皆さんの力が必要です。
+                            </p>
+                        </div>
+                        <div class="section-why-box-space">
+                            <div>
+                                <img src="./img/programming5.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-why-box-right">
+                        <div class="section-why-box-space-top">
+                            <div class="section-why-box-img-t"><img src="./img/programming3.jpg" alt=""></div>
+                            <div class="section-why-box-img-b"><img src="./img/programming4.jpg" alt=""></div>
+                        </div>
+                        <div class="section-why-box-article right-article">
+                            <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                        class="bgappearTrigger">お話好きなコミュニティ</span></span></h2>
+                            <p>
+                                POSSE②は公式でも非公式でもたくさんお話をする機会があります。深い議論になることも多々あり、新しい視点を得られます。
+                            </p>
+                            <p>
+                                色々な価値観を持つメンバーが共存しているので、面白い話がたくさんできます！
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="section2-box">
+                    <div class="section2-box-about">
+                        <h2><span class="bgextend bgRLextendTrigger"><span
+                                    class="bgappearTrigger">セクション2とは?</span></span></h2>
+                        <p>セクション２とは、ワークショップにて扱った内容についてもっと話を深めたいメンバーが、各々の考えや悩み、その他諸々において議論する場のことです。ミートアップ内でのワークショップでももちろんしっかり話すことができますが、セクション２では、そこで話しきれなかった内容や新たな疑問等をぶつけることができます。夜な夜な語って朝を迎えてた…ということも少なくありません！ぜひあなたもPOSSE２の素敵なメンバーたちと、盛り上がりませんか？
+                        </p>
+                        <p>実際に扱ったお題とセクション2の議題は下から参照出来ます。</p>
+                    </div>
+                    <!-- quote generator -->
+                    <section class="generator" ->
+                        <div class="quote-container">
+                            <!-- 元のトピック表示 -->
+                            <h2 class="first-topic">Workshop Topic </h2>
+                            <p>「<span class="quote" id="first-quote"></span>」</p>
+
+                            <!-- セクション２のトピック表示 -->
+                            <h2 class="second-topic">Section-2 Topic </h2>
+                            <p>「<span class="quote" id="second-quote"></span>」</p>
+                            <hr />
+                            <div class="btns">
+                                <!-- ツイートボタン -->
+                                <a href="https://twitter.com/intent/tweet?text=Greetings"><img src="./img/twitter.png"
+                                        class="twitter" id="tweet" data-size="large" target="_blank"
+                                        rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                                <!-- 新しいquote表示するボタン -->
+                                <button class="next" onclick="getNewQuote()">Discovering Other Topics</button>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </section>
+
+            <div class="section-box-first"></div>
+
+            <!-- 1番目のsectionのコピー -->
+            <section class="section-box-top">
+                <div class="section-about-slogan">ワクワクを<br>体験しよう</div>
+                <div class="section-about-left">
+                    <div class="section-about-article">
+                        <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                    class="bgappearTrigger">私たちと一緒に<br>成長しませんか？</span></span></h2>
+                        <p>
+                            POSSE②は新しい可能性に満ちています。これからもメンバー同士が協力し合ってどんどん進化します。
+                        </p>
+                        <p>
+                            3.0期生の皆さんとまだ見ぬ未来を一緒に見られることを心待ちにしています！
+                        </p>
+                    </div>
+                    <div class="section-about-img">
+                        <img src="./img/programming2.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-box-first">
+                <div class="invitation">
+                    <h2>入会のご案内</h2>
+                    <p>POSSE②に入会するには、下のボタンからGoogleフォームを送信する必要があります。あなたの入会を楽しみにしています！</p>
+                    <button>POSSE②にする</button>
+                </div>
+            </div>
+            <!-- footer -->
+            <footer>
+                <div class="footer-inner">
+                    <div class="footer-sns-box">
+                        <div class="footer-sns-inner">
+                            <p>FOLLOW US</p>
+                            <ul class="footer-sns-icons">
+                                <li><a href="https://www.instagram.com/posse_programming/"><img
+                                            src="./img/instagram.png" class="icon" alt="Instagram"></a></li>
+                                <li><a href="https://twitter.com/posse_program"><img src="./img/twitter.png"
+                                            class="icon" alt="Twitter"></a></li>
+                                <li><a href="https://line.me/R/ti/p/@651htnqp?from=page"><img src="./img/line.png"
+                                            class="icon" alt="Line"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-link-box">
+                        <a href="">TOP</a>
+                        <a href="./ayumi.html">HISTORY</a>
+                        <a href="./projects.html">PROJECTS</a>
+                        <a href="">GALLERY</a>
+                        <a href="">応募フォーム</a>
+                        <a href="">POSSE公式サイト</a>
+                    </div>
+                    <div class="footer-credit-box">
+                        <p>POSSE②</p>
+                        <p>TeamF はっぱっぱ🍃</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
+        <script src="./header.js"></script>
 </body>
+
 </html>

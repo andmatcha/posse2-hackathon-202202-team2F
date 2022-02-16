@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POSSE② | 制作物紹介</title>
+    <link rel="stylesheet" href="./destyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./destyle.css" />
+    <link rel="stylesheet" href="./common.css" />
+    <link rel="stylesheet" href="./projects.css" />
+
+</head>
+
+<body>
+    <div class="bg_pt"></div>
+    <div class="wrapper">
+        <div id="side_menu_wrapper" class="side-menu-wrapper">
+            <nav id="side_menu" class="side-menu"></nav>
+        </div>
+
+        <header>
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="img/posse2_logo.jpg" class="logo-pic" alt="posse2_logo" />
+                </div>
+                <nav id="header_menu">
+                    <ul id="header_btns" class="header-btns">
+                        <li class="header-btn"><a href="./index.html">TOP</a></li>
+                        <li class="header-btn"><a href="./ayumi.html">HISTORY</a></li>
+                        <li class="header-btn"><a href="./projects.html">PROJECTS</a></li>
+                        <li class="header-btn"><a href="./gallery.html">GALLERY</a></li>
+                        <li class="header-btn"><a
+                                href="https://docs.google.com/forms/d/1CIi92K1lOtHGMmHYMq3ArzW8jlNUy8i_gPmX4cgQTos/edit?usp=sharing">応募フォーム</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="hamburger" class="openbtn"><span></span><span></span><span></span></div>
+            </div>
+        </header>
+        <div class="header-spacer"></div>
+        <main>
+            <div class="container">
+                <div class="article-title">
+                    <img class="article-title-img" src="./img/seisakubutsu.jpeg" alt="足跡の画像">
+                    <div class="article-title-dotline"></div>
+                    <div class="article-title-txt-box">
+                        <h1 class="article-title-topic">POSSE②のメンバーによる制作物</h1>
+                        <p class="article-title-txt">
+                            POSSE②ではメンバーや本部による手厚いサポートのもとで、一人一人が着実に学び、プログラミングの技術を伸ばしてきました。<br>実際に制作されたサイト類をぜひご覧ください。
+                        </p>
+                    </div>
+                </div>
+
+                <div class="header-spacer"></div>
+
+                <div class="all-article">
+                    <section class="section-about">
+                        <div class="section-box-top">
+                            <div class="article-img-box">
+                                <img src="./img/programing_logo.png" alt="">
+                            </div>
+                            <div class="section-about-article">
+                                <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                            class="bgappearTrigger">POSSE②で学べること</span></span></h2>
+                                <div class="article-contents">
+                                    <p class="article-text">
+                                        POSSEではWebアプリケーションの制作に関わる言語や周辺知識を中心に学習します。入学して最初に触れる言語はHTML, CSS, JavaScriptです。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="section-about">
+                        <div class="section-box-top">
+                            <div class="section-about-article">
+                                <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                            class="bgappearTrigger">これまでの制作物</span></span></h2>
+                                <div class="article-contents">
+                                    <p class="article-text">
+                                        POSSEではカリキュラムごとにチームで作品制作を競い合うハッカソンというイベントが行われます。限られた時間（２〜３日）の中で、与えられた案件の必須事項を満たし、かつデザインを一から考え練り上げるイベントになっています。
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="article-img-box">
+                                <img src="./img/example-page.png" alt="">
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="section-about">
+                        <div class="section-box-top">
+
+                            <div class="section-about-article last-article">
+                                <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                            class="bgappearTrigger">他にはこんなことができちゃいます！</span></span></h2>
+                                <div class="article-contents">
+                                    <p class="article-text">
+                                        ここではJavaScriptという言語が使われています。実際に、このタイピングゲームはプログラミング歴１年の青柳くんが数時間で仕上げてくれました！！<br>
+                                        スタートボタンを押すとゲームが開始します。できるだけ早く表示された単語をタイプしよう！
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div id="g_box" class="game-box">
+                        <button id="g_play_button" class="game-play-button">
+                            START
+                        </button>
+                        <div id="g_display" class="game-display">
+                            <div id="g_words_box" class="game-display-words"></div>
+                            <div id="g_time_box" class="game-display-time"></div>
+                            <div id="g_score_box" class="game-display-score"></div>
+                        </div>
+                    </div>
+                    </article>
+                </div>
+        </main>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-sns-box">
+                <div class="footer-sns-inner">
+                    <p>FOLLOW US</p>
+                    <ul class="footer-sns-icons">
+                        <li><a href="https://www.instagram.com/posse_programming/"><img src="./img/instagram.png"
+                                    class="icon" alt="Instagram"></a></li>
+                        <li><a href="https://twitter.com/posse_program"><img src="./img/twitter.png" class="icon"
+                                    alt="Twitter"></a></li>
+                        <li><a href="https://line.me/R/ti/p/@651htnqp?from=page"><img src="./img/line.png" class="icon"
+                                    alt="Line"></li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-link-box">
+                <a href="">TOP</a>
+                <a href="./ayumi.html">HISTORY</a>
+                <a href="./projects.html">PROJECTS</a>
+                <a href="">GALLERY</a>
+                <a href="">応募フォーム</a>
+                <a href="">POSSE公式サイト</a>
+            </div>
+            <div class="footer-credit-box">
+                <p>POSSE②</p>
+                <p>TeamF はっぱっぱ🍃</p>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./projects.js"></script>
+    <script src="./game.js"></script>
+    <script src="./header.js"></script>
+</body>
+
+</html>
