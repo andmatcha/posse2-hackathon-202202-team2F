@@ -15,8 +15,8 @@
   background-color: #f3fcfa;
   background-image: radial-gradient(#ccc 1px, #fff 1px);
   background-size: 25px 25px;
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
   z-index: -1;
 }
 
