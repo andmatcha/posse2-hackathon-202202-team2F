@@ -277,7 +277,16 @@
 .section-why-box-space {
     width: 400px;
     flex-grow: 1;
-    background-color: purple;
+}
+
+.section-why-box-space div {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.section-why-box-space  img {
+    width: 100%;
+    max-width: 200px;
 }
 
 .section-why-box-right {
@@ -314,12 +323,6 @@
     border-radius: 10px;
     background-color: #eee;
     box-shadow: 4px 4px 4px #bbb;
-}
-
-.section-why-box-space-bottom {
-    width: 80%;
-    flex-grow: 1;
-    background-color: purple;
 }
 
 .section2-box {
