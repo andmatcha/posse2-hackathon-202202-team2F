@@ -1,8 +1,8 @@
 //loading画面
 const wait = (sec) => {
-    return new Promise((resolve) => {
-        setTimeout(resolve, sec * 1000);
-    });
+	return new Promise((resolve) => {
+		setTimeout(resolve, sec * 1000);
+	});
 };
 
 async function hideLoading() {
@@ -87,5 +87,52 @@ $(window).scroll(function () {
 
 // 画面が読み込まれたらすぐに動かしたい場合の記述
 $(window).on('load', function () {
-    BgFadeAnime();/* アニメーション用の関数を呼ぶ*/
+	BgFadeAnime();/* アニメーション用の関数を呼ぶ*/
 });// ここまで画面が読み込まれたらすぐに動かしたい場合の記述
+
+
+
+// Quote Generator
+
+
+let firstQuoteArray =[
+	'公的成功',
+	'公的成功',
+	'終わりを思い描くことから始める',
+	'終わりを思い描くことから始める',
+	'Win-Winを考える',
+	'Win-Winを考える',
+	'Win-Winを考える',
+]
+
+let secondQuoteArray =[
+	'人の言葉を信じるには…？',
+	'誰にどこまで自分を開示できる…？',
+	'自分優先思考から抜け出したいけど…',
+	'終わりを作ると今の自分を疎かにしてしまう？',
+	'Win-Winって本当に実現可能？理想論では？',
+	'「優しさ」や「強さ」ってなんだろう？',
+	'No-Dealって本当に関係悪化する？',
+]
+
+const firstText = document.getElementById("first-topic");
+const secondText = document.getElementById("second-topic");
+const tweetButton = document.getElementById("tweet");
+
+
+
+
+function getNewQuote(){
+
+
+	// ランダムの数字を取得　０からテキストの数
+	var randomNumber = Math.floor(Math.random() * (firstQuoteArray.length));
+
+	// 配列内容それぞれ挿入
+	document.getElementById('first-quote').innerHTML = firstQuoteArray[randomNumber]
+	document.getElementById('second-quote').innerHTML = secondQuoteArray[randomNumber]
+
+	//ツイートする
+	tweetButton.href = "https://twitter.com/intent/tweet?text=" + quote + " ~ " + auth;
+}
+getNewQuote();

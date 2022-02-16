@@ -1,0 +1,86 @@
+/* article テンプレここから */
+
+/* article title */
+
+.article-title {
+    position: relative;
+    min-height: 245px;
+    padding: 0;
+}
+
+/* article title --dotline */
+
+.article-title-dotline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 245px;
+}
+
+.article-title-dotline:before,
+.article-title-dotline:after {
+    position: absolute;
+    width: 100%;
+    border-top: 4px dotted #545454;
+    content: '';
+}
+
+.article-title-dotline:before {
+    top: 6px;
+}
+
+.article-title-dotline:after {
+    bottom: 6px;
+}
+
+/* article title --image */
+
+.article-title-img {
+    position: absolute;
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    filter: grayscale(30%) blur(1px);
+}
+
+/* article title --text */
+
+.article-title-txt-box {
+    position: relative;
+    margin: 0 
+    
+    40px;
+    padding: 2em 1.5em 0;
+    color: #EEE;
+}
+
+.article-title-txt {
+    width: 40%;
+    text-align: left;
+    line-height: 200%;
+}
+
+.article-title-topic {
+    font-size: 30px;
+    font-weight: 550;
+    height: 20%;
+}
+
+.article-title-txt {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    .article-title-txt {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    .article-title-txt {
+        width: 100%;
+        font-size: .8em;
+    }
+}
