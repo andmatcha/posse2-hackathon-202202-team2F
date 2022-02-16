@@ -387,14 +387,33 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
     border-radius: 15px;
     width: 400px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: #EEEEEE;
     margin: 10px;
+    min-height: 250px;
+    min-width: 250px;
+    max-width: 370px;
+    max-height: 290px;
+}
+
+.first-topic{
+    color:#F29F05;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.second-topic{
+    color:#F29F05;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 4px;
 }
 
 .quote
 {
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -403,21 +422,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 9px;
+    margin-top: 13px;
 }
 
 .twitter
 {
-    border:1px solid rgb(102, 179, 255);
     border-radius: 2px;
-    background-color: rgb(102, 179, 255);
-    color: white;
     text-align: center;
     font-size: 1.8em;
-    width: 60px;
-    height: 35px;
-    line-height: 40px;
+    width: 40px;
+    height: 40px;
 }
+
 .next
 {
     font-size:18px;
@@ -425,11 +441,11 @@
     cursor:pointer;
     padding: 10px;
     margin-top: 5px;
-    font-weight: bold;
-    color: white;
-    background-image: linear-gradient(to right bottom, #F29F05, #eeee);
+    color: #545454;
+    background-color: #F29F05;
+    height: 40px;
 }
 
 .quote-container:hover{
-    box-shadow: 0 10px 10px #545454;
+    box-shadow: 0 2px 5px #545454;
 }
