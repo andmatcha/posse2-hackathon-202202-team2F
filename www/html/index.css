@@ -621,7 +621,97 @@
     color: #545454;
 }
 
+/* カウントダウンタイマー　by Lisa */
+.countdown-container{
+    width: 180px;
+    height:170px;
+    font-size: 14px;
+    background-color: #545454;
+    box-shadow: #383006;
+    margin-left: 10px;
+    color: #eee;
+    border-radius: 7px;
+    box-shadow: #a6a6a6 4px 4px;
+    position: fixed;
+    z-index: 20;
+    bottom: 60px;
+    left: 20px;
+    padding: 3px;
+}
 
+.posse-third{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 2px;
+    font-weight: bolder;
+}
+
+.banner-p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.time-text{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    color: #F29F05;
+}
+
+.countdown-elm{
+    text-align: center;
+}
+
+.countdown-box{
+    text-align: center;
+}
+
+
+.form-btn a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 1em 2em;
+    width: 140px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ccc;
+    transition: 0.3s;
+}
+
+.form-btn a::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+    border: 2px solid #F29F05;
+    transition: 0.2s;
+}
+.form-btn a::after {
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-top: 3px solid #383006;
+    border-right: 3px solid #383006;
+    transform: rotate(45deg);
+}
+
+.form-btn a:hover::before {
+    top: 0;
+    left: 0;
+}
+
+.form-btn a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+/* timer ここまで */
 
 /* responsive */
 @media screen and (max-width: 1024px) {
