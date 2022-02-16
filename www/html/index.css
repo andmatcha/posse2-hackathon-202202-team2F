@@ -319,26 +319,17 @@
 
 .section2-box h2 {
     font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
-.section2-box p {
-    margin: 0 60px;
+.section2-box-about p {
+    margin: 0 150px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 16px;
 }
-
-.section2-generator-box {
-    width: 60vw;
-    height: 45vw;
-    max-width: 480px;
-    max-height: 320px;
-    min-width: 180px;
-    min-height: 180px;
-    margin: 10px 20px;
-    border: #333 solid 1px;
-    border-radius: 10px;
-    background-color: #eee;
-    box-shadow: 4px 4px 4px #bbb;
-}
-
 
 /* responsive */
 @media screen and (max-width: 1024px) {}
@@ -536,7 +527,7 @@
 .quote
 {
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -545,7 +536,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 13px;
+    margin-top: 10px;
 }
 
 .twitter

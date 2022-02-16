@@ -122,12 +122,12 @@
                         <div class="section-why-box-article">
                             <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
                                         class="bgappearTrigger">POSSE②とは</span></span></h2>
-                                        <p>
-                                            POSSE②は現在元気いっぱいな23人のメンバーからなるコミュニティです！ほとんどのメンバーがプログラミング初心者として入り、この１年で飛躍的な成長を遂げました。
-                                        </p>
-                                        <p>
-                                            新大学2年生のメンバーが多く、フレッシュな雰囲気に満ちています。
-                                        </p>
+                            <p>
+                                POSSE②は現在元気いっぱいな23人のメンバーからなるコミュニティです！ほとんどのメンバーがプログラミング初心者として入り、この１年で飛躍的な成長を遂げました。
+                            </p>
+                            <p>
+                                新大学2年生のメンバーが多く、フレッシュな雰囲気に満ちています。
+                            </p>
                         </div>
                         <div class="section-why-box-space"></div>
                     </div>
@@ -138,38 +138,60 @@
                     </div>
                 </div>
                 <div class="section2-box">
-                    <h2>セクション2とは?</h2>
-                    <p>ここにセクション2の説明が入ります。ここにセクション2の説明が入ります。ここにセクション2の説明が入ります。</p>
-                    <div class="section2-generator-box">
-                        ここにquote generatorが入ります。
+                    <div class="section2-box-about">
+                        <h2><span class="bgextend bgRLextendTrigger"><span
+                            class="bgappearTrigger">セクション2とは?</span></span></h2>
+                        <p>セクション２とは、ワークショップにて扱った内容についてもっと話を深めたいメンバーが参加し、各々の考えや悩み、その他諸々において議論する場のことを指します。ミートアップ内で行われる以下月一回のワークショップでももちろんPOSSEに入っていなかったら深く考えることのないような内容をPOSSE２のメンバー四人程でしっかり話すことができますが、セクション２では、そこで話しきれなかった内容や新たな疑問等をぶつけることができます。毎回とても興味深い議題についてメンバーたちは熱く話し合っています。夜な夜な語って朝を迎えてた…ということも少なくありません。ぜひあなたもPOSSE２の素敵なメンバーたちと、盛り上がりませんか？</p>
+                        <p>実際にワークショップで扱ったお題とセクション2の議題は下から参照出来ます。</p>
+                        
                     </div>
+                    <!-- quote generator -->
+                    <section class="generator" ->
+                        <div class="quote-container">
+                            <!-- 元のトピック表示 -->
+                            <h2 class="first-topic">Workshop Topic </h2>
+                            <p>「<span class="quote" id="first-quote"></span>」</p>
+
+                            <!-- セクション２のトピック表示 -->
+                            <h2 class="second-topic">Section-2 Topic </h2>
+                            <p>「<span class="quote" id="second-quote"></span>」</p>
+                            <hr />
+                            <div class="btns">
+                                <!-- ツイートボタン -->
+                                <a href="https://twitter.com/intent/tweet?text=Greetings"><img src="./img/twitter.png"
+                                        class="twitter" id="tweet" data-size="large" target="_blank"
+                                        rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                                <!-- 新しいquote表示するボタン -->
+                                <button class="next" onclick="getNewQuote()">Discovering Other Topics</button>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section>
 
             <!-- 1番目のsectionのコピー -->
-                <section class="section-box-top">
-                    <div class="section-about-slogan">すくすくと育つ<br>コミュニティ</div>
-                    <div class="section-about-left">
-                        <div class="section-about-article">
-                            <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
-                                        class="bgappearTrigger">POSSE②とは</span></span></h2>
-                            <p>
-                                POSSE②は現在元気いっぱいな23人のメンバーからなるコミュニティです！ほとんどのメンバーがプログラミング初心者として入り、この１年で飛躍的な成長を遂げました。
-                            </p>
-                            <p>
-                                新大学2年生のメンバーが多く、フレッシュな雰囲気に満ちています。
-                            </p>
-                        </div>
-                        <div class="section-about-img">
-                            <img src="./img/programming1.jpg" alt="">
-                        </div>
+            <section class="section-box-top">
+                <div class="section-about-slogan">すくすくと育つ<br>コミュニティ</div>
+                <div class="section-about-left">
+                    <div class="section-about-article">
+                        <h2 class="section-article-title"><span class="bgextend bgRLextendTrigger"><span
+                                    class="bgappearTrigger">POSSE②とは</span></span></h2>
+                        <p>
+                            POSSE②は現在元気いっぱいな23人のメンバーからなるコミュニティです！ほとんどのメンバーがプログラミング初心者として入り、この１年で飛躍的な成長を遂げました。
+                        </p>
+                        <p>
+                            新大学2年生のメンバーが多く、フレッシュな雰囲気に満ちています。
+                        </p>
                     </div>
-                </section>
-
-                <div class="section-box-first">
-                    <div class="section-box-img"></div>
+                    <div class="section-about-img">
+                        <img src="./img/programming1.jpg" alt="">
+                    </div>
                 </div>
-
+            </section>
+          
+            <div class="section-box-first">
+                <div class="section-box-img"></div>
+            </div>
             <!-- footer -->
             <footer>
                 <div class="footer-inner">
