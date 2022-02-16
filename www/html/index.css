@@ -531,14 +531,14 @@
     color:#F29F05;
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 
 .second-topic{
     color:#F29F05;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-bottom: 4px;
 }
 
@@ -566,9 +566,8 @@
     height: 40px;
 }
 
-.next
-{
-    font-size:18px;
+.next{
+    font: size 12px;
     border-radius: 2px;
     cursor:pointer;
     padding: 10px;
@@ -576,6 +575,7 @@
     color: #545454;
     background-color: #F29F05;
     height: 40px;
+    width: 260px;
 }
 
 .quote-container:hover{
