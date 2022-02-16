@@ -95,6 +95,26 @@
                 </div>
             </section>
 
+            <!-- quote generator -->
+            <section class="generator"->
+                <div class="quote-container">
+                    <!-- 元のトピック表示 -->
+                    <h2 class="first-topic">Workshop Topic </h2>
+                    <p>「<span class="quote" id="first-quote"></span>」</p>
+                    
+                    <!-- セクション２のトピック表示 -->
+                    <h2 class="second-topic">Section-2 Topic </h2>
+                    <p>「<span class="quote" id="second-quote"></span>」</p>
+                    <hr/>
+                    <div class="btns">
+                        <!-- ツイートボタン -->
+                        <a href="https://twitter.com/intent/tweet?text=Greetings"><img src="./img/twitter.png"  class="twitter" id="tweet"  data-size="large" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                        <!-- 新しいquote表示するボタン -->
+                        <button class="next" onclick="getNewQuote()">Discovering Other Topics</button>
+                    </div>
+                </div>
+            </section>
+          
             <section class="section-why">
                 <div class="section-why-box-top">
                     <div class="section-why-slogan">人格×プログラミング</div>
@@ -168,11 +188,10 @@
                     </div>
                 </div>
             </section>
-
+          
             <div class="section-box-first">
                 <div class="section-box-img"></div>
             </div>
-
             <!-- footer -->
             <footer>
                 <div class="footer-inner">
