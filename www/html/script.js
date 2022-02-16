@@ -94,6 +94,34 @@ function getNewQuote(){
 	document.getElementById('second-quote').innerHTML = secondQuoteArray[randomNumber]
 
 	//ツイートする
-	tweetButton.href = "https://twitter.com/intent/tweet?text=" + quote + " ~ " + auth;
+	tweetButton.href = "https://twitter.com/intent/tweet?text=";
 }
 getNewQuote();
+
+
+	// カウントダウンタイマー by Lisa
+
+	const daysElm = document.getElementById('days');
+	
+	// ここに好きな日時を記述する
+	// 西暦 月　日
+	const target = '2022 6 1';
+	
+	function countDown() {
+		const targetDate = new Date(target);
+		const currentDate = new Date();
+	
+		const totalSeconds = (targetDate - currentDate) / 1000;
+	
+		const days = Math.floor(totalSeconds / 3600 / 24);
+	
+		daysElm.innerHTML = days;
+		// hoursElm.innerHTML = formatTime(hours);
+		// minsElm.innerHTML = formatTime(mins);
+	}
+	
+	function formatTime(time) {
+		return time < 10 ? `0${time}` : time;
+	}
+	
+	setInterval(countDown, 1000);
