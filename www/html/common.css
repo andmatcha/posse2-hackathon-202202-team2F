@@ -1,5 +1,7 @@
 * {
   font-family: 'Sawarabi Gothic', 'Source Sans Pro', sans-serif;
+  letter-spacing: .1rem;
+  line-height: 150%;
 }
 
 .wrapper {
