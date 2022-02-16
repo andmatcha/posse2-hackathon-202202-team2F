@@ -10,15 +10,36 @@
     <link rel="stylesheet" href="./common.css">
     <link rel="stylesheet" href="./gallery.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
-
 </head>
 
 <body>
     <div class="bg_pt"></div>
 
     <div class="wrapper">
-        <header></header>
+        <div id="side_menu_wrapper" class="side-menu-wrapper">
+            <nav id="side_menu" class="side-menu"></nav>
+        </div>
+        <!-- header -->
+        <header>
+            <div class="header-inner">
+                <div class="logo">
+                    <img src="img/posse2_logo.jpg" class="logo-pic" alt="posse2_logo" />
+                </div>
+                <nav id="header_menu">
+                    <ul id="header_btns" class="header-btns">
+                        <li class="header-btn"><a href="">TOP</a></li>
+                        <li class="header-btn"><a href="./ayumi.html">HISTORY</a></li>
+                        <li class="header-btn"><a href="./projects.html">PROJECTS</a></li>
+                        <li class="header-btn"><a href="./gallery.html">GALLERY</a></li>
+                        <li class="header-btn"><a
+                                href="https://docs.google.com/forms/d/1CIi92K1lOtHGMmHYMq3ArzW8jlNUy8i_gPmX4cgQTos/edit?usp=sharing">応募フォーム</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div id="hamburger" class="openbtn"><span></span><span></span><span></span></div>
+            </div>
+        </header>
+        <div class="header-spacer"></div>
         <div class="header-spacer"></div>
         <div class="container">
             <div class="article-title">
@@ -64,9 +85,9 @@
                                     <!-- 必要に応じたwrapper -->
                                     <div class="swiper-wrapper">
                                         <!-- スライド -->
-                                        <div class="swiper-slide">  <img src="./img/food1.jpg" alt=""></div>
-                                        <div class="swiper-slide">  <img src="./img/food2.jpg" alt=""></div>
-                                        <div class="swiper-slide">  <img src="./img/food3.jpg" alt=""></div>
+                                        <div class="swiper-slide"> <img src="./img/food1.jpg" alt=""></div>
+                                        <div class="swiper-slide"> <img src="./img/food2.jpg" alt=""></div>
+                                        <div class="swiper-slide"> <img src="./img/food3.jpg" alt=""></div>
                                     </div>
                                 </div>
                             </div>
@@ -75,10 +96,41 @@
                             </div>
                         </div>
                     </div>
-            </article>
+                </article>
         </div>
-    <footer></footer>
-</div>
+            <!-- footer -->
+            <footer>
+                <div class="footer-inner">
+                    <div class="footer-sns-box">
+                        <div class="footer-sns-inner">
+                            <p>FOLLOW US</p>
+                            <ul class="footer-sns-icons">
+                                <li><a href="https://www.instagram.com/posse_programming/"><img
+                                            src="./img/instagram.png" class="icon" alt="Instagram"></a></li>
+                                <li><a href="https://twitter.com/posse_program"><img src="./img/twitter.png"
+                                            class="icon" alt="Twitter"></a></li>
+                                <li><a href="https://line.me/R/ti/p/@651htnqp?from=page"><img src="./img/line.png"
+                                            class="icon" alt="Line"></li></a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-link-box">
+                        <a href="">TOP</a>
+                        <a href="./ayumi.html">HISTORY</a>
+                        <a href="./projects.html">PROJECTS</a>
+                        <a href="">GALLERY</a>
+                        <a href="">応募フォーム</a>
+                        <a href="">POSSE公式サイト</a>
+                    </div>
+                    <div class="footer-credit-box">
+                        <p>POSSE②</p>
+                        <p>TeamF はっぱっぱ🍃</p>
+                    </div>
+                </div>
+            </footer>
+    </div>
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./header.js"></script>
 </body>
+
 </html>
