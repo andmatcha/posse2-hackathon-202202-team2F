@@ -397,10 +397,12 @@
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     padding: 5px;
+    font-weight: bolder;
 }
 
 .banner-p{
     text-align: center;
+    font-weight: bold;
 }
 
 .time-text{
