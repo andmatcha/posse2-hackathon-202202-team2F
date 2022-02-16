@@ -65,14 +65,13 @@
 
 .section-box-first {
     width: 100%;
-    min-height: 500px;
+    min-height: 150px;
     height: fit-content;
     padding: 30px;
     display: flex;
     justify-content: center;
     gap: 10%;
     align-items: center;
-    background-color: #eee;
     flex-wrap: wrap;
 }
 
@@ -140,7 +139,8 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     font-size: 80px;
-    margin-right: 50px;
+    margin-right: 10%;
+    padding: 60px 40px;
     box-shadow: 4px 4px 4px #bbb;
     border-bottom: #333 solid 2px;
     border-right: #333 solid 2px;
